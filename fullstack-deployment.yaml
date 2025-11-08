@@ -65,12 +65,12 @@ spec:
     spec:
       containers:
         - name: backend
-          image: venisha22/kts-bakend
+          image: SAIHARSHAVARDHANRAJUDATLA/kts-bakend
           ports:
             - containerPort: 8080
           env:
             - name: SPRING_DATASOURCE_URL
-              value: jdbc:mysql://mysql:3306/ecommerce
+              value: jdbc:mysql://mysql:3306/travelbookingsystem
             - name: SPRING_DATASOURCE_USERNAME
               value: root
             - name: SPRING_DATASOURCE_PASSWORD
@@ -98,7 +98,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: venisha22/kts-forntend
+          image: SAIHARSHAVARDHANRAJUDATLA/kts-forntend
           ports:
             - containerPort: 8080
           env:
