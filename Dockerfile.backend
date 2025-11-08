@@ -6,7 +6,7 @@
     RUN apt-get update && apt-get install -y git
     
     # Clone your backend repo
-    RUN git clone https://github.com/getstar1/kts-backend.git .
+    RUN git clone https://github.com/SAIHARSHAVARDHANRAJUDATLA/kts-backend.git .
 
     RUN mvn clean package -DskipTests
 
